@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * removed RemovedInDjango40Warning warning message, thanks to @Ivan-Feofanov
 
+## [1.7] - 2023-09-04
+
+### Changed
+
+* fix various bugs
+
 ## [1.0] - 2022-10-31
 
 ### Changed

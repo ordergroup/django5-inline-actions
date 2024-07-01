@@ -6,7 +6,7 @@
 <!-- ![GitHub Workflow Status (master)](https://img.shields.io/github/workflow/status/HiroshiFuu/django4-inline-actions/Test%20&%20Lint/master?style=flat-square) -->
 <!-- ![Coveralls github branch](https://img.shields.io/coveralls/github/HiroshiFuu/django4-inline-actions/master?style=flat-square) -->
 
-django4-inline-actions adds actions to each row of the ModelAdmin or InlineModelAdmin. Add support for Django 4.
+django4-inline-actions adds actions to each row of the ModelAdmin or InlineModelAdmin. Add support for Django 4. And it should be supported by Django 5.
 
 ## Requirements
 
@@ -229,7 +229,6 @@ If a staff user has clicked any inline action accidentally, they can safely clic
 
 The current implementation for using intermediate forms involves some manual handling.
 This will be simplified in the next major release!
-
 
 In order to have an intermediate form, you must add some information about the triggered action.
 `django4-inline-actions` provides a handy templatetag `render_inline_action_fields`,
